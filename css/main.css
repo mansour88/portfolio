@@ -1,0 +1,204 @@
+/* Bootstrap css */
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css";
+ 
+/* Propeller typography */
+@import "http://propeller.in/components/typography/css/typography.css";
+
+/* Propeller navbar */
+@import "http://propeller.in/components/navbar/css/navbar.css";
+
+/* Propeller dropdowns */
+@import "http://propeller.in/components/dropdown/css/dropdown.css";
+
+/* Propeller buttons */
+@import "http://propeller.in/components/button/css/button.css";
+
+/* Propeller list */
+@import "http://propeller.in/components/list/css/list.css";
+
+/* Propeller icons */
+@import "http://fonts.googleapis.com/icon?family=Material+Icons";
+@import "http://propeller.in/components/icons/css/google-icons.css";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 25%;
+}
+
+.navbar li{
+    margin-top: 1rem;
+}
+
+.nav li:hover {
+    color: white;
+}
+
+.pmd-navbar .navbar-toggle {
+    margin-top: 1.5rem;
+}
+
+
+.heroimg {
+    width: 100%;
+    height: auto;
+}
+
+
+.pmd-card {
+    padding: 2rem;
+}
+
+.form {
+    margin-top: 5.5rem;
+
+}
+
+
+.title {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.title p {
+    margin: 1.5rem;    
+}
+
+.btn {
+    background-color: #a8b3be;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.material-icons {
+    font-size: 2.5rem;
+}
+
+
+h1 {
+    margin: 1rem 1.5rem;
+}
+
+.about {
+    text-align: center;
+    background-color: #a8b3be;
+    color: black;
+}
+
+
+
+.about h1 {
+    color: black;
+}
+
+.portnav {
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.port-link {
+    color: black;
+}
+
+.port-link:hover {
+    color:whitesmoke;
+}
+
+.port-link:active {
+    color:aliceblue;
+}
+
+.col-sm-4 {
+    margin: 1rem 0;
+}
+
+.vid {
+    height: 360px;
+}
+
+.about-main {
+    text-align: center;
+    background-color: #a8b3be;
+    color: black;
+    padding: 1.5rem;
+    
+}
+
+.about-main .btn {
+    margin-top: 1.5rem;
+}
+
+
+/*Footer/Social Styling*/
+.social {
+    background-color: lightgray;
+    padding: 2rem 0;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+.social a {
+    color: black;
+}
+
+.social a:hover {
+    color: white;
+}
+
+.social p {
+    margin: 1rem 0;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body {
+        font-size: 1.15rem;
+    }
+    
+    h3 {
+        font-size: 1.15rem;
+    }
+    
+    .nav {
+        margin-left: -10rem;
+    }
+}
+
+
+
+
+
+
+/* new clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
